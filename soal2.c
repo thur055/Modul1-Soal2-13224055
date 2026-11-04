@@ -55,7 +55,7 @@ int main (){
         printf("%s ", P[j].data);
         panjang += strlen(P[j].data);
     }
-    printf("%s", P[N-count].data);
+    printf("%s", P[N-count-1].data);
     printf("\n");
     printf("LENGTH %d", panjang);
    /*
