@@ -49,8 +49,17 @@ int main (){
             count++;
         }
     }
+    int panjang = 0;
     sortpaketindex(P, N);
     for(int j = 0; j<N-count;j++){
         printf("%s ", P[j].data);
+        panjang += strlen(P[j].data);
     }
+    printf("\n");
+    printf("LENGTH %d", panjang);
+   /*
+   char key[10], newline[10];
+   scanf("%s", key);
+   strcpy(newline, strinv(key));
+   printf("%s\n", newline);*/
 }
