@@ -24,7 +24,7 @@ char* strinv(char *str){
 void sortpaketindex(Paket *P, int N){
     Paket temp;
     for(int i = 0; i<N; i++){
-        for (int j = i; j < N-1; j++){
+        for (int j = i; j < N; j++){
             if (P[i].index > P[j].index){
                 temp = P[i];
                 P[i] = P[j];
